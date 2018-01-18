@@ -1,0 +1,32 @@
+body {
+  background: #000;
+  margin: 0;
+  padding: 0; }
+  body h1, body h2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center; }
+  body img {
+    width: 100%; }
+  body .section1 {
+    height: 100vh; }
+    body .section1 .section1-inner {
+      position: fixed;
+      z-index: -1; }
+  body .section2 {
+    height: 100vh;
+    background: #000; }
+  body .section3 {
+    height: 100vh;
+    background: cadetblue; }
+    body .section3.is-fixed .section3-inner {
+      top: 0;
+      left: 0;
+      position: fixed;
+      z-index: 0; }
+  body .section4 {
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    background: #ccc; }

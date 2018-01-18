@@ -1,0 +1,53 @@
+$baseColor: #000;
+
+body {
+  background: $baseColor;
+  margin: 0;
+  padding: 0;
+
+  h1, h2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .section1 {
+    height: 100vh;
+
+    .section1-inner {
+      position: fixed;
+      z-index: -1;
+    }
+  }
+
+  .section2 {
+    height: 100vh;
+    background: #000;
+  }
+
+  .section3 {
+    height: 100vh;
+    background: cadetblue;
+
+    &.is-fixed {
+      .section3-inner {
+        top: 0;
+        left: 0;
+        position: fixed;
+        z-index: 0;
+      }
+    }
+  }
+
+  .section4 {
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    background: #ccc;
+  }
+}
